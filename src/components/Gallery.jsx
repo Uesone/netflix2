@@ -1,4 +1,4 @@
-// src/components/Gallery.js
+
 import React, { Component } from 'react';
 import MovieCard from './MovieCard';
 import './Gallery.css';
