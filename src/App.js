@@ -52,9 +52,9 @@ function App() {
         </div>
       </div>
 
-      <Gallery title="Harry Potter" />
-      <Gallery title="Lord of the Rings" />
-      <Gallery title="Star Wars" />
+      <Gallery title="Cowboy Bebop" />
+      <Gallery title="Marvel" />
+      <Gallery title="Jay and Silent Bob" />
       <Footer />
     </div>
   );
