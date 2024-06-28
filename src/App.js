@@ -4,6 +4,7 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/NetflixFooter";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min"; // Importa JavaScript di Bootstrap
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./styles.css"; // Importa il file CSS personalizzato
 
