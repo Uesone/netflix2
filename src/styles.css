@@ -1,0 +1,37 @@
+
+body {
+    background-color: #221F1F; 
+    color: #ffffff; 
+  }
+  
+  .footer-icon {
+    color: #ffffff;
+  }
+  
+  .footer-links a {
+    color: #ffffff;
+  }
+  
+  .btn-secondary {
+    background-color: #221f1f;
+    border-color: #221f1f;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #333333;
+    border-color: #333333;
+  }
+  
+  .dropdown-menu {
+    background-color: #221f1f;
+  }
+  
+  .dropdown-item {
+    color: #ffffff;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  

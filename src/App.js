@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Navbar from "./components/NetflixNav";
+import Gallery from "./components/Gallery";
+import Footer from "./components/NetflixFooter";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "./styles.css"; // Importa il file CSS personalizzato
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid px-4">
+      <Navbar />
+      <Gallery title="Harry Potter" />
+      <Gallery title="Lord of the Rings" />
+      <Gallery title="Star Wars" />
+      <Footer />
     </div>
   );
 }
