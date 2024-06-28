@@ -4,10 +4,9 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/NetflixFooter";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min"; // Importa JavaScript di Bootstrap
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import "./styles.css"; // Importa il file CSS personalizzato
-
+import "./styles.css";
 function App() {
   return (
     <div className="container-fluid px-4">
